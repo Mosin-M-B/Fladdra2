@@ -4,7 +4,7 @@
 .SolutionHero{
     font-family: "Barlow", sans-serif;
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("../assets/solution-hero.jpg");
-    height: 500px;
+    height: 650px;
     width: 100%;
     background-repeat: no-repeat;
     background-size: cover;
