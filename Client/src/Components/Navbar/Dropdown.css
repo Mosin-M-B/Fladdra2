@@ -1,0 +1,62 @@
+.services-submenu {
+  min-width: 10rem;
+  width: auto;
+
+  top: 67px;
+  list-style: none;
+  text-align: start;
+  display: none; /* Initially hidden */
+}
+
+#drop {
+  background: rgb(190, 50, 50);
+  padding: 10px;
+}
+
+#drop > h3 {
+  color: white;
+  font-weight: 700;
+}
+
+#drop > h3:hover {
+  color: rgb(0, 241, 161);
+}
+
+.services-submenu li {
+  background: rgb(190, 50, 50);
+  cursor: pointer;
+}
+
+.services-submenu li a:hover {
+  color: rgb(0, 241, 161);
+}
+
+.submenu-item {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: white;
+  padding: 16px;
+}
+
+@media screen and (min-width: 961px) {
+  .nav-item:hover .services-submenu {
+    display: block; /* Show on hover for larger screens */
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .services-submenu {
+    width: 100%;
+    top: 0;
+  }
+
+  .services-submenu.show {
+    display: block; /* Show on click for smaller screens */
+  }
+
+  .services-submenu li {
+    text-align: left;
+  }
+}
