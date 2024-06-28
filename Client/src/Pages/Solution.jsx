@@ -4,7 +4,9 @@ import { SectionOne } from "../Components/Section/SectionOne";
 import { Arrowbutton } from "../Components/Arrow Button/Arrowbutton";
 import { ArrSectionTwo } from "../Components/Section/sectionOne.js";
 import { OurSolution } from "../Components/OurSolution/OurSolution.jsx";
+// eslint-disable-next-line no-unused-vars
 import {Cards} from '../Components/Card/Cards.jsx'
+import { Partner } from "../Components/Partner/Partner.jsx";
 export const Solution = () => {
   return (
     <>
@@ -22,7 +24,7 @@ export const Solution = () => {
             business opportunities, make smart decisions, and drive business
             impact.
           </p>
-          <Arrowbutton name={"GO Fladdra Today"} />
+          <Arrowbutton name={"GO Fladdra Today"}/>
         </div>
       </div>
 
@@ -33,6 +35,7 @@ export const Solution = () => {
       />
       <OurSolution />
       <Section2/>
+      <Partner/>
     </>
   );
 };

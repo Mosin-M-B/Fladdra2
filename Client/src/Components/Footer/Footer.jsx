@@ -7,19 +7,23 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineAlternateEmail } from "react-icons/md";
-
+import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <footer>
       <div className="footercontent">
         <div className="footerleft">
-          <div className="flogo ">
-            <h1>Fladdra</h1>
-            <img src={logo} />
-          </div>
+        <Link to="/">
+        <div className="flogo ">
+        
+        <h1>Fladdra</h1>
+        <img src={logo} />
+        
+        </div>
+        </Link>
           <div className="fsocial">
             <a href="https://www.linkedin.com/company/fladdra" target="_blank">
-            <FaLinkedin />
+              <FaLinkedin />
             </a>
             <FaYoutubeSquare />
             <FaSquareInstagram />
