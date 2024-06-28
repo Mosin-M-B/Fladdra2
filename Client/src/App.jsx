@@ -21,6 +21,7 @@ function App() {
             <Route path="cloud" element={<Cloud />} />
             <Route path="ai" element={<AI />} />
           </Route>
+          <Route path=""/>
         </Routes>
         <Footer />
       </Router>

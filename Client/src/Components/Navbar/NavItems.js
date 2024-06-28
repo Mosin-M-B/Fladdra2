@@ -28,6 +28,12 @@ export const navItems = [
     title: "Who We Are",  
     path: "/about",
     cName: "nav-item",
+  },
+  {
+    id: 6,
+    title: "Get In Touch",  
+    path: "/getin",
+    cName: "nav-item",
   }
 ];
 
