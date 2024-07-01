@@ -5,9 +5,11 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage } from "./Pages/LandingPage";
 import { Footer } from "./Components/Footer/Footer";
 import { Solution } from "./Pages/Solution";
-import { Data } from "./Pages/Data";
-import { Cloud } from "./Pages/Cloud";
-import { AI } from "./Pages/AI";
+
+import { OurThinking } from "./Pages/OurThinking.jsx";
+
+import { GetInTouch} from './Pages/GetInTouch'
+import { WhoWeAre } from "./Pages/WhoWeAre";
 function App() {
   return (
     <>
@@ -15,13 +17,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="solution">
-            <Route path="" element={<Solution />} />
-            <Route path="data" element={<Data />} />
-            <Route path="cloud" element={<Cloud />} />
-            <Route path="ai" element={<AI />} />
-          </Route>
-          <Route path=""/>
+          <Route path="solution" element={<Solution/>}/>
+          <Route path="getin" element={<GetInTouch/>}/>
+          <Route path="whowe" element={<WhoWeAre/>}/>
+          <Route path="our" element={<OurThinking/>}/>
         </Routes>
         <Footer />
       </Router>

@@ -6,12 +6,6 @@ export const navItems = [
     cName: "nav-item",
   },
   {
-    id: 2,
-    title: "Industries",
-    path: "/services",
-    cName: "nav-item",
-  },
-  {
     id: 3,
     title: "Customer Stories",  // Corrected spelling
     path: "/products",
@@ -20,13 +14,13 @@ export const navItems = [
   {
     id: 4,
     title: "Our Thinking",
-    path: "/contactus",
+    path: "/our",
     cName: "nav-item",
   },
   {
     id: 5,
     title: "Who We Are",  
-    path: "/about",
+    path: "/whowe",
     cName: "nav-item",
   },
   {

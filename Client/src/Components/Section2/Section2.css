@@ -159,12 +159,13 @@
 }
 
 /* For large mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .section2 {
     flex-direction: column;
     align-items: center;
     height: auto;
     padding: 40px;
+    margin-top: 30px;
   }
 
   .sectionContent {
@@ -404,23 +405,30 @@
 
   .sectionContent {
     width: 100%;
-   
+   padding: 0;
+   margin: 0;
     align-items: center;
   }
 
   .imgs {
+    padding: 0;
+    margin: 0;
     height: 200px;
     display: flex;
     justify-content: center;
+   
+    align-items: center;
     
   }
 
   .imgs > img {
+    margin-right:100px ;
    width: 200px;
    height: 200px;
   }
   
   #circle{
+    margin: 0;
     width: 200px;
    height: 200px;
   }

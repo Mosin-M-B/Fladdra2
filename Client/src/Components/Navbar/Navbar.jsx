@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
+
 import { IoIosArrowDown } from "react-icons/io";
 import {
   navItems,
@@ -74,27 +75,15 @@ export const Navbar = () => {
       </div>
       <ul className={click ? "nav-items active" : "nav-items"}>
         {navItems.map((item) => {
-          const dropdownItems = getDropdownItems(item.title);
           return (
-            <li
-              key={item.id}
-              className={item.cName}
-              onClick={() => handleDropdownClick(item.title)}
-            >
+            <li key={item.id} className={item.cName}>
               <Link
                 to={item.path}
                 className={activeMenu === item.title ? "active" : ""}
                 id="link"
               >
                 {item.title}
-                {dropdownItems.length > 0 && <IoIosArrowDown />}
               </Link>
-              {dropdownItems.length > 0 && (
-                <Dropdown
-                  dropdown={activeMenu === item.title}
-                  items={dropdownItems}
-                />
-              )}
             </li>
           );
         })}
