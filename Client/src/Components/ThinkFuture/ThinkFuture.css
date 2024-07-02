@@ -119,6 +119,53 @@
   color: white;
   margin-bottom: 0;
 }
+@media (max-width: 1024px){
+  .Future{
+    width: 100%;
+   padding: 0;
+  }
+  .FutureContent{
+    width: 100%;
+  }
+  .future_cards{
+    width: 90%;
+  }
+}
+@media (max-width: 769px){
+  .Future{
+    width: 100%;
+   padding: 0;
+  }
+  .FutureContent{
+    width: 100%;
+  }
+  .FutureContent>h1{
+    font-size: 50px;
+  }
+  .FutureContent>p{
+    font-size: 20px;
+    width: 90%;
+   padding: 0;
+  }
+}
+@media (max-width: 431px){
+  .Future{
+    width: 100%;
+   padding: 0;
+   margin: 0;
+  }
+  .FutureContent{
+    width: 100%;
+  }
+  .FutureContent>h1{
+    font-size: 20px;
+  }
+  .FutureContent>p{
+    font-size: 12px;
+    width: 90%;
+   padding: 0;
+  }
+}
 @media (max-width: 391px){
   .Future{
     width: 100%;
