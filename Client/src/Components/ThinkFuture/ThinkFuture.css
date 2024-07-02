@@ -11,6 +11,7 @@
 }
 .FutureContent {
   width: 100%;
+  
   display: flex;
   justify-content: start;
   align-items: center;
@@ -117,4 +118,21 @@
   font-size: 16px;
   color: white;
   margin-bottom: 0;
+}
+@media (max-width: 391px){
+  .Future{
+    width: 100%;
+   padding: 0;
+  }
+  .FutureContent{
+    width: 100%;
+  }
+  .FutureContent>h1{
+    font-size: 20px;
+  }
+  .FutureContent>p{
+    font-size: 12px;
+    width: 90%;
+   padding: 0;
+  }
 }

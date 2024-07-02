@@ -5,6 +5,7 @@ import { Section2 } from "../Components/Section2/Section2";
 import { TabSection } from "../Components/TabSection/TabSection";
 import { SectionOne } from "../Components/Section/SectionOne";
 import { ArrSectionOne } from '../Components/Section/sectionOne.js'
+import { ThinkFuture } from "../Components/ThinkFuture/ThinkFuture.jsx";
 export const LandingPage = () => {
   return (  
     <>
@@ -14,7 +15,7 @@ export const LandingPage = () => {
       <SectionOne h2={ArrSectionOne.h2} h3={ArrSectionOne.h3} para={ArrSectionOne.para}/>
       <TabSection/>
       <Section2 />
-    
+      <ThinkFuture/>
     </>
   );
 };
