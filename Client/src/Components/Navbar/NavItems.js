@@ -8,7 +8,7 @@ export const navItems = [
   {
     id: 3,
     title: "Customer Stories",  // Corrected spelling
-    path: "/products",
+    path: "/cus",
     cName: "nav-item",
   },
   {

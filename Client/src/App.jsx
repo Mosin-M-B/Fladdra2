@@ -7,7 +7,7 @@ import { Footer } from "./Components/Footer/Footer";
 import { Solution } from "./Pages/Solution";
 
 import { OurThinking } from "./Pages/OurThinking.jsx";
-
+import {CustomerStories} from "./Pages/CustomerStories.jsx"
 import { GetInTouch} from './Pages/GetInTouch'
 import { WhoWeAre } from "./Pages/WhoWeAre";
 function App() {
@@ -21,6 +21,7 @@ function App() {
           <Route path="getin" element={<GetInTouch/>}/>
           <Route path="whowe" element={<WhoWeAre/>}/>
           <Route path="our" element={<OurThinking/>}/>
+          <Route path="cus" element={<CustomerStories/>}/>
         </Routes>
         <Footer />
       </Router>
