@@ -62,7 +62,8 @@ export const Navbar = () => {
                 state={{TextDecoder:'none'}}
                 to={item.path}
                 className={activeMenu === item.title ? "active" : ""}
-                id="link" 
+                id="link"
+                onClick={closeMobileMenu} 
               >
                 {item.title}
               </Link>
