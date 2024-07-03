@@ -43,6 +43,52 @@
     display: block;
     color: black;
 }
+#upper{
+    overflow: hidden;
+   
+    height: 300px;
+}
+#upper>img{
+    width: 90%;
+    height: 250%;
+    position: relative;
+    top:0px;
+}
+
+
+#card:hover {
+    transform: scale(1.05); /* Optional: Add a hover scale effect */
+}
+
+#upper {
+    position: relative;
+}
+#title{
+    font-size: 30px;
+    color: blueviolet;
+    font-weight: ;
+}
+#lower {
+    position: relative;
+    padding: 10px;
+    text-align: center; /* Optional: Center-align text */
+}
+
+#description {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+
+
+#card:hover #title {
+    display: none;
+}
+#card:hover #description {
+    display: block;
+    opacity: 1;
+}
 .upper{
     padding: 5px;
     

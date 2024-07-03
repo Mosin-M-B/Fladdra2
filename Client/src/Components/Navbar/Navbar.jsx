@@ -1,8 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
-
-import { IoIosArrowDown } from "react-icons/io";
 import {
   navItems,
   SolutionsDropdown,
@@ -10,7 +8,7 @@ import {
   WhoweAreDropdown,
   OurThinkingDropdown,
 } from "./NavItems";
-import Dropdown from "./Dropdown";
+
 import logo from "../../assets/logo.png";
 import "./Navbar.css";
 
@@ -29,11 +27,7 @@ export const Navbar = () => {
     setActiveMenu("");
   };
 
-  const handleDropdownClick = (menuName) => {
-    if (isMobile) {
-      setActiveMenu((prevMenu) => (prevMenu === menuName ? "" : menuName));
-    }
-  };
+ 
 
   useEffect(() => {
     const handleResize = () => {
@@ -45,20 +39,7 @@ export const Navbar = () => {
     };
   }, []);
 
-  const getDropdownItems = (title) => {
-    switch (title) {
-      case "Solutions":
-        return SolutionsDropdown;
-      case "Industries":
-        return IndustriesDropdown;
-      case "Our Thinking":
-        return OurThinkingDropdown;
-      case "Who We Are":
-        return WhoweAreDropdown;
-      default:
-        return [];
-    }
-  };
+ 
 
   return (
     <nav className="navbar">
@@ -78,9 +59,10 @@ export const Navbar = () => {
           return (
             <li key={item.id} className={item.cName}>
               <Link
+                state={{TextDecoder:'none'}}
                 to={item.path}
                 className={activeMenu === item.title ? "active" : ""}
-                id="link"
+                id="link" 
               >
                 {item.title}
               </Link>
