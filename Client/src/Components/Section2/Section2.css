@@ -348,6 +348,35 @@
     font-size: 30px;
   }
 }
+@media (max-width: 413px){
+  .section2{
+    margin: 20px 0px;
+  }
+  .sectionContent{
+    padding: 0px 0px;
+    margin: 20px 0px;
+    height: 880px;
+  }
+  .section2text{
+   
+    padding: 0px 10px;
+    margin: 0px;
+ 
+  }
+  .imgs{
+    width: 350px;
+    height: 350px;
+  }
+  .imgs>img{
+    width: 350px;
+    height: 350px;
+  }
+  #circle{
+   
+    width: 350px;
+    height: 350px;
+  }
+} 
 @media (max-width: 431px) {
   .section2 {
     padding: 10px;

@@ -190,7 +190,6 @@ section {
   
 
   .s1c {
-
     width: 100%;
     padding-right: 10px;
     margin: 0;
@@ -212,10 +211,12 @@ section {
     text-align: center;
     width: 100%;
   }
-  .sectioncontent p {
-    font-size: 20px;
+  .s1c>.innersection>.sectioncontent>p {
+    font-size: 18px;
     width: 100%;
     line-height: 20px;
+    padding-top: 20px;
+   
 
   }
 

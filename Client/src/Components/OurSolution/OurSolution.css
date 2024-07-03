@@ -75,6 +75,12 @@ box-shadow: -15px -13px 38px 48px rgba(236,240,250,1);
         padding: 5px;
     }
 }
+@media (max-width: 413px){
+    .OSMIH>p{
+        width: 350px;
+        padding: 5px;
+    }
+}
 @media (max-width: 390px){
     .OSMID{
         width: 390px;
