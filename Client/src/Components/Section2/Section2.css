@@ -351,6 +351,7 @@
 @media (max-width: 413px){
   .section2{
     margin: 20px 0px;
+    overflow: hidden;
   }
   .sectionContent{
     padding: 0px 0px;
@@ -358,7 +359,8 @@
     height: 800px;
   }
   .section2text{
-   
+    
+    margin-top: 100px;
     padding: 0px 10px;
     margin: 0px;
  
@@ -366,6 +368,7 @@
   .imgs{
     width: 350px;
     height: 350px;
+    margin-bottom: 250px;
   }
   .imgs>img{
     width: 350px;

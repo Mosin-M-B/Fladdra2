@@ -50,12 +50,7 @@ menu {
   padding-left: 100px;
   padding-top: 60px;
   opacity: 1;
-  transition: opacity 0.1s ease-in-out;
-  overflow: visible;
-  -webkit-transition: opacity 0.1s ease-in-out;
-  -moz-transition: opacity 0.1s ease-in-out;
-  -ms-transition: opacity 0.1s ease-in-out;
-  -o-transition: opacity 0.1s ease-in-out;
+  
 }
 
 #tab-content p {
@@ -101,23 +96,9 @@ menu {
   height: 400px;
 }
 
-.fade-in {
-  opacity: 1;
-  transition: opacity 0.1s ease-in-out;
-  -webkit-transition: opacity 0.1s ease-in-out;
-  -moz-transition: opacity 0.1s ease-in-out;
-  -ms-transition: opacity 0.1s ease-in-out;
-  -o-transition: opacity 0.1s ease-in-out;
-}
 
-.fade-out {
-  opacity: 0;
-  transition: opacity 0.1s ease-in-out;
-  -webkit-transition: opacity 0.1s ease-in-out;
-  -moz-transition: opacity 0.1s ease-in-out;
-  -ms-transition: opacity 0.1s ease-in-out;
-  -o-transition: opacity 0.1s ease-in-out;
-}
+
+
 
 #tab-content > .herobutton > div > .herobtntext > p {
   letter-spacing: 6px;

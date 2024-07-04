@@ -106,6 +106,7 @@ input[type="text"],
 input[type="number"],
 input[type="email"] {
   font-size: 16px;
+  padding-left: 30px;
 }
 .checkbox {
   display: flex;
