@@ -108,6 +108,11 @@ input[type="email"] {
   font-size: 16px;
   padding-left: 30px;
 }
+/* Add this to your GetInTouch.css file */
+.select-margin {
+  padding-left: 30px;
+}
+
 .checkbox {
   display: flex;
   gap: 15px;
