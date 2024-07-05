@@ -26,9 +26,15 @@ export const Footer = () => {
               <FaLinkedin />
             </a>
             <FaYoutubeSquare />
+            <a href="https://www.instagram.com/fladdraglobal?igsh=MXFmbTV2OGdmZTJkZg==">
             <FaSquareInstagram />
+            </a>
+            <a href="https://www.facebook.com/share/45DcopaPWxnpZeJz/?mibextid=qi2Omg">
             <FaFacebookSquare />
+            </a>
+            <a href="https://x.com/FladdraGlobal?t=1JE8jOIRLBZAMHZ8j-fIkQ&s=09">
             <FaSquareXTwitter />
+            </a>
           </div>
           <div className="fcontact">
             <div className="number">
