@@ -395,6 +395,10 @@ menu {
     border-bottom: 0.5px solid white;
     order: -1; /* Move menu to the top */
   }
+  .tabsContent > menu >li>button{
+    background-color: transparent;
+    border: none;
+  }
 
   .tabsimg {
     width: 90%;

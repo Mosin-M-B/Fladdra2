@@ -44,6 +44,9 @@ export const Footer = () => {
               <MdOutlineAlternateEmail />
               <p>info@fladdra.com</p>
             </div>
+            <div className="mail" style={{marginTop:'20px'}}>
+              <p> Fladdra The Core lattitude NIBM Pune 411048</p>
+            </div>
           </div>
         </div>
         <div className="footerright">
