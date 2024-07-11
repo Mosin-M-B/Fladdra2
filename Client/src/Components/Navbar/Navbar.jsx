@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
 import {
   navItems,
-  SolutionsDropdown,
-  IndustriesDropdown,
-  WhoweAreDropdown,
-  OurThinkingDropdown,
+  // SolutionsDropdown,
+  // IndustriesDropdown,
+  // WhoweAreDropdown,
+  // OurThinkingDropdown,
 } from "./NavItems";
 
 import logo from "../../assets/logo.png";
@@ -28,7 +28,7 @@ export const Navbar = () => {
   };
 
  
-
+  console.log(isMobile)
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 960);

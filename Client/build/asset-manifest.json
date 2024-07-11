@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f09f4cd9.css",
+    "main.js": "/static/js/main.f8cffc81.js",
+    "static/media/office2.jpg": "/static/media/office2.4c7d17bbffa0313e5384.jpg",
+    "static/media/cus1.png": "/static/media/cus1.76adc16ccf3bf0849186.png",
+    "static/media/adobe.jpg": "/static/media/adobe.f8f323e0d17623aa6dfb.jpg",
+    "static/media/stat.jpg": "/static/media/stat.66c50291b83f3dabf0d2.jpg",
+    "static/media/cus2.png": "/static/media/cus2.78c72b19b4f532a47729.png",
+    "static/media/whowearecircle.jpg": "/static/media/whowearecircle.334650da8ce01afcfba8.jpg",
+    "static/media/Cloud.jpg": "/static/media/Cloud.3f61c0944a0565c389ab.jpg",
+    "static/media/Data.jpg": "/static/media/Data.8d9ce396804078890151.jpg",
+    "static/media/AI.jpg": "/static/media/AI.153b49558dbdbb9ab638.jpg",
+    "static/media/our.jpg": "/static/media/our.ce5b4910ba501aae312e.jpg",
+    "static/media/Password.jpg": "/static/media/Password.4ba790a80cb0fdc857e5.jpg",
+    "static/media/logo.png": "/static/media/logo.bad54752160ed1fb8c5a.png",
+    "static/media/card6.jpg": "/static/media/card6.0c6b7fbd67d8bfb0d6db.jpg",
+    "static/media/AIC.jpg": "/static/media/AIC.37cd38363e01109e547a.jpg",
+    "static/media/ThinkCard3.jpg": "/static/media/ThinkCard3.aedfff6023f0a9b6a3a9.jpg",
+    "static/media/IndustrySolutions.jpg": "/static/media/IndustrySolutions.f856325b3e9f090b55e0.jpg",
+    "static/media/ThinkCard1.jpg": "/static/media/ThinkCard1.65e4024b5e0efcdcdad8.jpg",
+    "static/media/Fladdra_customer.jpg": "/static/media/Fladdra_customer.97b2c12eeaab2d52fe35.jpg",
+    "static/media/card4.jpg": "/static/media/card4.e4bc0625f7d972879566.jpg",
+    "static/media/card5.jpg": "/static/media/card5.8c688bb143a7170bc355.jpg",
+    "static/media/solution-hero.jpg": "/static/media/solution-hero.5f40b4b56a1a724c9a94.jpg",
+    "static/media/ThinkCard2.jpg": "/static/media/ThinkCard2.8775d67b8af99d150907.jpg",
+    "static/media/circle.png": "/static/media/circle.6b944dcaf4a0b6f28a9f.png",
+    "static/media/CrackerBarrel.jpg": "/static/media/CrackerBarrel.757c7e439bdde0e1df5d.jpg",
+    "static/media/saleforce.jpg": "/static/media/saleforce.0e36e08234469dd3706e.jpg",
+    "static/media/American-Cancer-Society.jpg": "/static/media/American-Cancer-Society.770ab65e145917b6d065.jpg",
+    "static/media/ovartis Logo.jpg": "/static/media/ovartis Logo.2b48f1a3ec88ee6c7f12.jpg",
+    "static/media/pic4.png": "/static/media/pic4.72de737ffcf99ea87d44.png",
+    "static/media/ichaels2.jpg": "/static/media/ichaels2.3c0a8f78fd54e139da73.jpg",
+    "index.html": "/index.html",
+    "main.f09f4cd9.css.map": "/static/css/main.f09f4cd9.css.map",
+    "main.f8cffc81.js.map": "/static/js/main.f8cffc81.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f09f4cd9.css",
+    "static/js/main.f8cffc81.js"
+  ]
+}

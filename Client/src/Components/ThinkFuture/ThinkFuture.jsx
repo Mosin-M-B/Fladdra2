@@ -1,4 +1,3 @@
-import React from 'react';
 import './ThinkFuture.css';
 import { ThinkFutureCardData } from './ThinkFutureCardData';
 
