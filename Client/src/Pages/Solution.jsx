@@ -1,11 +1,8 @@
 import "./Solution.css";
 import { Section2 } from "../Components/Section2.2/Section2";
-import { SectionOne } from "../Components/Section/SectionOne";
+import { ArrSectionTwo} from "../Components/Section/sectionOne.js";
 import { Arrowbutton } from "../Components/Arrow Button/Arrowbutton";
-import { ArrSectionTwo } from "../Components/Section/sectionOne.js";
 import { OurSolution } from "../Components/OurSolution/OurSolution.jsx";
-// eslint-disable-next-line no-unused-vars
-import { Cards } from "../Components/Card/Cards.jsx";
 import { Partner } from "../Components/Partner/Partner.jsx";
 import { Helmet } from "react-helmet";
 export const Solution = () => {

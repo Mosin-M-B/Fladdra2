@@ -1,8 +1,6 @@
-/* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import React from "react";
 import './Section3.css'
-export default function Section3({ data }) {
+export default function Section3( {data} ) {
   return (
     <div className="section3">
       <div className="section3Content">

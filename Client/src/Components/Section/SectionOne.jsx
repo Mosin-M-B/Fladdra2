@@ -1,7 +1,7 @@
-import "./SectionOne.css";
-import PropTypes from 'prop-types';
+import "./SectionOneStyle.css";
 
-export const SectionOne = ({h2,h3,para}) => {
+
+ export default SectionOne = ({h2,h3,para}) => {
   return (
     <>
       <section className="sectionOne">
@@ -22,11 +22,4 @@ export const SectionOne = ({h2,h3,para}) => {
       </section>
     </>
   );
-};
-
-
-SectionOne.propTypes = {
-  h2: PropTypes.string.isRequired,
-  h3: PropTypes.string.isRequired,
-  para: PropTypes.string.isRequired,
 };

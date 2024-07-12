@@ -74,7 +74,7 @@
   height: 470px;
   display: flex;
   gap: 40px;
-  overflow-x: auto; /* Enable horizontal scrolling */
+  overflow-x: auto; 
 }
 .contact_form_left,
 .contact_form_right {

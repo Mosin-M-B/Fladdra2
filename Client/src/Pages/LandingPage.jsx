@@ -2,10 +2,10 @@ import { HeroSection } from "../Components/HeroSection/HeroSection";
 import { Client } from "../Components/ClientofCompany/Client";
 import { Section2 } from "../Components/Section2/Section2";
 import { TabSection } from "../Components/TabSection/TabSection";
-import { SectionOne } from "../Components/Section/SectionOne";
 import { ArrSectionOne } from "../Components/Section/sectionOne.js";
 import { ThinkFuture } from "../Components/ThinkFuture/ThinkFuture.jsx";
 import { Helmet } from "react-helmet";
+import SectionOne from "../Components/Section/SectionOne.jsx";
 export const LandingPage = () => {
   return (
     <>
