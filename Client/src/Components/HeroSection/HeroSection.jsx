@@ -25,7 +25,7 @@ export const HeroSection = () => {
     }, 2000);
 
     return () => clearInterval(interval);
-  }, []);
+  }, );
 
   useEffect(() => {
     if (opacity === 0.1) {
