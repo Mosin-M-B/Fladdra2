@@ -1,8 +1,9 @@
-import "./GetInTouch.css";
-import { useRef } from 'react';
+import  { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { Helmet } from 'react-helmet';
+import "./GetInTouch.css";
 
 export const GetInTouch = () => {
   const form = useRef();
@@ -38,10 +39,14 @@ export const GetInTouch = () => {
 
   return (
     <>
+      <Helmet>
+        <title>Get In Touch - Fladdra</title>
+        <meta name="description" content="Connect with our team about your upcoming business projects and opportunities." />
+      </Helmet>
       <ToastContainer />
       <div className="get_hero">
         <div className="get_hero_content">
-          <h1>Take Your Business Further Today</h1>
+          <h1>Take Your Business Fladdra Today</h1>
           <p>
             Let’s connect on how we can use data, cloud, and AI to unlock your
             opportunities and drive impact for your business.

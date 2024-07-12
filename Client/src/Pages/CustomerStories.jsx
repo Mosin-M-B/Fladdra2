@@ -2,9 +2,14 @@
 import "./CustomerStories.css";
 import cus1 from "../assets/cus1.png";
 import cus2 from "../assets/cus2.png";
+import { Helmet } from "react-helmet";
 export const CustomerStories = () => {
   return (
     <>
+    <Helmet>
+    <title> Customer Stories- Fladdra</title>
+    <meta name="description" content="Connect with our team about your upcoming business projects and opportunities." />
+  </Helmet>
       <div className="CustomerStories_hero">
         <div className="CustomerStories_content">
           <h1>Explore Our Customer's Stories.</h1>

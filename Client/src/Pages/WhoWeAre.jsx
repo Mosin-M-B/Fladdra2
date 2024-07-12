@@ -6,9 +6,21 @@ import award4 from "../assets/pic4.png";
 import award5 from "../assets/pic5.png";
 import { Arrowbutton } from "../Components/Arrow Button/Arrowbutton";
 import "./WhoWeAre.css";
+import { Helmet } from "react-helmet";
 export const WhoWeAre = () => {
   return (
     <>
+      <Helmet>
+        <title>Who We Are - Fladdra</title>
+        <meta
+          name="description"
+          content="Connect with our team about your upcoming business projects and opportunities."
+        />
+        <meta
+          name="heding"
+          content="A More Practical Strategy,A More Flexible Foundation,A More Focused Partner"
+        />
+      </Helmet>
       <div className="whoweare_hero">
         <div className="whoweare_content">
           <h1 style={{ fontWeight: "700" }}>
@@ -30,11 +42,7 @@ export const WhoWeAre = () => {
       <div className="whoweare_content1">
         <div className="content1">
           <div className="content1_writing">
-            <h1>
-             
-                We help clients use data to drive business impact.
-             
-            </h1>
+            <h1>We help clients use data to drive business impact.</h1>
             <p>
               Our primary focus is helping you find answers to questions about
               your company and discovering fresh insights and techniques to

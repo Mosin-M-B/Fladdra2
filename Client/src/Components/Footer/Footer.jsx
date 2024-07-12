@@ -7,6 +7,7 @@ import { FaFacebookSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { MdOutlineLocalPhone } from "react-icons/md";
 import { MdOutlineAlternateEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
@@ -45,6 +46,7 @@ export const Footer = () => {
               <p>info@fladdra.com</p>
             </div>
             <div className="mail" style={{marginTop:'20px'}}>
+              <FaLocationDot />
               <p> Fladdra The Core lattitude NIBM Pune 411048</p>
             </div>
           </div>

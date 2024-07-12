@@ -5,7 +5,9 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage } from "./Pages/LandingPage";
 import { Footer } from "./Components/Footer/Footer";
 import { Solution } from "./Pages/Solution";
-
+import Data from "./Pages/Data.jsx";
+import AI from "./Pages/AI.jsx";
+import Cloud from "./Pages/Cloud.jsx";
 import { OurThinking } from "./Pages/OurThinking.jsx";
 import {CustomerStories} from "./Pages/CustomerStories.jsx"
 import { GetInTouch} from './Pages/GetInTouch'
@@ -17,7 +19,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
-          <Route path="solution" element={<Solution/>}/>
+          <Route path="solution">
+            <Route path="" element={<Solution />} />
+            <Route path="data" element={<Data />} />
+            <Route path="cloud" element={<Cloud />} />
+            <Route path="ai" element={<AI />} />
+          </Route>
           <Route path="getin" element={<GetInTouch/>}/>
           <Route path="whowe" element={<WhoWeAre/>}/>
           <Route path="our" element={<OurThinking/>}/>
