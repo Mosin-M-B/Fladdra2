@@ -14,27 +14,25 @@ export const Footer = () => {
     <footer>
       <div className="footercontent">
         <div className="footerleft">
-        <Link to="/">
-        <div className="flogo ">
-        
-        <h1>Fladdra</h1>
-        <img src={logo} />
-        
-        </div>
-        </Link>
+          <Link to="/">
+            <div className="flogo ">
+              <h1>Fladdra</h1>
+              <img src={logo} />
+            </div>
+          </Link>
           <div className="fsocial">
             <a href="https://www.linkedin.com/company/fladdra" target="_blank">
               <FaLinkedin />
             </a>
             <FaYoutubeSquare />
             <a href="https://www.instagram.com/fladdraglobal?igsh=MXFmbTV2OGdmZTJkZg==">
-            <FaSquareInstagram />
+              <FaSquareInstagram />
             </a>
             <a href="https://www.facebook.com/share/45DcopaPWxnpZeJz/?mibextid=qi2Omg">
-            <FaFacebookSquare />
+              <FaFacebookSquare />
             </a>
             <a href="https://x.com/FladdraGlobal?t=1JE8jOIRLBZAMHZ8j-fIkQ&s=09">
-            <FaSquareXTwitter />
+              <FaSquareXTwitter />
             </a>
           </div>
           <div className="fcontact">
@@ -45,7 +43,7 @@ export const Footer = () => {
               <MdOutlineAlternateEmail />
               <p>info@fladdra.com</p>
             </div>
-            <div className="mail" style={{marginTop:'20px'}}>
+            <div className="mail" style={{ marginTop: "20px" }}>
               <FaLocationDot />
               <p> Fladdra The Core lattitude NIBM Pune 411048</p>
             </div>
@@ -55,9 +53,11 @@ export const Footer = () => {
           <div className="rightleft">
             <h3>Solutions</h3>
             <ol>
-              <li>Data</li>
-              <li>Cloud</li>
-              <li>AI</li>
+              <li>
+                <Link to="solution/data">Data</Link>
+              </li>
+              <li><Link to="solution/cloud">Cloud</Link></li>
+              <li><Link to="solution/ai">AI</Link></li>
             </ol>
             <div
               style={{
