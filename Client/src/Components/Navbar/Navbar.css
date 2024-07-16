@@ -1,6 +1,6 @@
 .navbar {
   height: 13vh;
-  background: red;
+  background: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,10 +9,11 @@
   z-index: 10;
   padding-left: 20vh;
   padding-right: 20vh;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 .navbar-logo {
-  color: white;
+  color:  #BD2625;
   text-decoration: none;
   gap: 10px;
   font-size: 2rem;
@@ -27,7 +28,7 @@
 
 .menu-icon {
   display: none;
-  color: white;
+  
   font-size: 2rem;
   cursor: pointer;
 }
@@ -37,6 +38,7 @@
   list-style: none;
   text-align: center;
   width: 70vw;
+
   justify-content: flex-end;
   margin-right: 2rem;
 }
@@ -50,9 +52,7 @@
 }
 
 .nav-item a {
- 
   text-decoration: none;
-  color: white;
   font-size: 1.1rem;
   margin-right: 2rem;
   padding: 6px 16px;
@@ -60,6 +60,7 @@
   display: flex;
   align-items: center;
   height: 100%;
+  font-weight: 500;
 }
 
 .nav-item a .IoIosArrowDown {
@@ -75,6 +76,7 @@
   width: 100%;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
+  
 }
 
 .dropdown a {
@@ -85,31 +87,37 @@
   text-align: left;
 }
 
-
-
+.active{
+  border: none;
+  color: #BD2625;
+}
+.nav-item.active {
+  color: #BD2625;
+  
+}
 .nav-item.active .dropdown {
   display: block;
   
 }
 
 .services-submenu {
-  width: 10rem;
+  width: 5rem;
   border-top:0.5px solid rgb(0, 241, 161);
   position: absolute;
   top: 90px;
   list-style: none;
   text-align: start;
+  background: #282C35;
+  border-radius: 5px;
 }
 
 .services-submenu li {
- 
-  background: rgb(212, 0, 0);
-  cursor: pointer;
+  padding-left: 30px;
+ cursor: pointer;
+
 }
 
-.services-submenu li a:hover {
-  background: rgb(255, 1, 1);
-}
+
 
 .services-submenu.clicked {
   display: none;
@@ -213,9 +221,7 @@
   }
 }
 @media screen and (max-width: 431px){
-  .nav{
 
-  }
   .nav-items.active {
     margin-top: 0px;
     background-color: red;
@@ -242,4 +248,8 @@
     
   }
  
+}
+.activ{
+  border: none;
+  color: #BD2625;
 }

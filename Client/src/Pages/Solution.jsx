@@ -1,10 +1,11 @@
 import "./Solution.css";
 import { Section2 } from "../Components/Section2.2/Section2";
-import { ArrSectionTwo} from "../Components/Section/sectionOne.js";
+import { ArrSectionTwo} from "../Components/Section/One.js";
 import { Arrowbutton } from "../Components/Arrow Button/Arrowbutton";
 import { OurSolution } from "../Components/OurSolution/OurSolution.jsx";
 import { Partner } from "../Components/Partner/Partner.jsx";
 import { Helmet } from "react-helmet";
+import {SectionOne}from "../Components/Section/SectionOne"
 export const Solution = () => {
   return (
     <>

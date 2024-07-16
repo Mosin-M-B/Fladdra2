@@ -1,7 +1,7 @@
 import "./SectionOneStyle.css";
 
 
- export default SectionOne = ({h2,h3,para}) => {
+ export const SectionOne = ({h2,h3,para}) => {
   return (
     <>
       <section className="sectionOne">
@@ -23,3 +23,4 @@ import "./SectionOneStyle.css";
     </>
   );
 };
+export default SectionOne;
