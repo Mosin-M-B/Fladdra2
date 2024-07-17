@@ -5,10 +5,8 @@ import React from "react";
 export default function TabButton({ children, onSelect, isSelected }) {
   console.log('TABBUTTON COMPONENT EXECUTING');
   return (
-    <li style={{listStyleType:'none' ,backgroundColor:'none' }}>
-      <button id='tabbutton' className={isSelected ? 'activee' : undefined} onClick={onSelect}>
+    <li style={{listStyleType:'none' ,backgroundColor:'none' , cursor:'pointer'}} className={isSelected ? 'activee' : undefined} onClick={onSelect}>
         {children}
-      </button>
     </li>
   );
 }
