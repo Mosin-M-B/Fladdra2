@@ -117,7 +117,7 @@ menu {
   text-align:left;
   margin-right:20px;
   background-color: transparent;
-  border: none;
+  border-right:2px solid red;
 }
 /* Media Queries */
 
