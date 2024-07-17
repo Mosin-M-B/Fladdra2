@@ -108,7 +108,12 @@ menu {
   font-weight: 700;
   margin-left: 130px;
 }
-
+#tabbutton{
+  width:100%;
+  height:150px;
+  text-align:left;
+  margin-right:20px;
+}
 /* Media Queries */
 
 /* For tablets and small desktops */
