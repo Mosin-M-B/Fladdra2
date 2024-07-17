@@ -6,7 +6,7 @@ import HeroSolution from '../Components/HeroPageForSolutions/HeroSolution.jsx'
 import {SolutionHeroData} from '../Components/HeroPageForSolutions/Solutions.js'
 import CoreCards from '../Components/CoreSolutions/CoreCards.jsx'
 import{Solutions} from '../Components/CoreSolutions/data.js'
-import React from "react";
+
 
 
 function DataPage() {

@@ -7,7 +7,7 @@ import { OurSolution } from "../Components/OurSolution/OurSolution.jsx";
 import { Partner } from "../Components/Partner/Partner.jsx";
 import { Helmet } from "react-helmet";
 import {SectionOne}from "../Components/Section/SectionOne"
-import React from "react";
+
 export const Solution = () => {
   return (
     <>

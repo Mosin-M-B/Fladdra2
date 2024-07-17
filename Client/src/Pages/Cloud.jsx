@@ -6,7 +6,7 @@ import { Section3Data } from '../Components/Section3/Section3.js'
 import Section3 from '../Components/Section3/Section3.jsx'
 import CoreCards from '../Components/CoreSolutions/CoreCards.jsx'
 import{Solutions} from '../Components/CoreSolutions/data.js'
-import React from "react";
+
 export default function Cloud() {
   return (
     <div>
