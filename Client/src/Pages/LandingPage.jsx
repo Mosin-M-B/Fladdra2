@@ -1,3 +1,4 @@
+import React from "react";
 import { HeroSection } from "../Components/HeroSection/HeroSection";
 import { Client } from "../Components/ClientofCompany/Client";
 import { Section2 } from "../Components/Section2/Section2";

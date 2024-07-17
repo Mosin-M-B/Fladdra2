@@ -1,3 +1,5 @@
+import React from "react";
+
 import { Section3Data } from '../Components/Section3/Section3.js'
 import Section3 from '../Components/Section3/Section3.jsx'
 import HeroSolution from '../Components/HeroPageForSolutions/HeroSolution.jsx'

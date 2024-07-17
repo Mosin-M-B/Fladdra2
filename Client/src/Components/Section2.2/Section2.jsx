@@ -1,3 +1,5 @@
+import React from "react";
+
 import industries from "../../assets/AIC.jpg";
 import circle from "../../assets/circle.png";
 import { Arrowbutton2 } from "../Arrow Button/Arrowbutton";

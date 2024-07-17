@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import TabButton from "./TabButton";
 import { Arrowbutton } from "../Arrow Button/Arrowbutton.jsx";
 import { EXAMPLES } from "./data.js";

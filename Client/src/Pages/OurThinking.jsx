@@ -1,3 +1,4 @@
+import React from "react";
 import "./OurThinking.css";
 import { ThinkFuture } from "../Components/ThinkFuture/ThinkFuture";
 import { Cards2 } from "../Components/Card/Cards";

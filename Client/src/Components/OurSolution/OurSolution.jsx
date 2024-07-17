@@ -1,3 +1,4 @@
+import React from "react";
 import './OurSolution.css'
 import {Cards} from '../Card/Cards'
 export const OurSolution = () =>{
