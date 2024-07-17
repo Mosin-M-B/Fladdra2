@@ -1,4 +1,6 @@
 import './ThinkFuture.css';
+import React from "react";
+
 import { ThinkFutureCardData } from './ThinkFutureCardData';
 
 export const ThinkFuture = () => {

@@ -1,3 +1,5 @@
+import React from "react";
+
 import HeroSolution from '../Components/HeroPageForSolutions/HeroSolution'
 import {SolutionHeroData} from '../Components/HeroPageForSolutions/Solutions.js'
 import { Section3Data } from '../Components/Section3/Section3.js'

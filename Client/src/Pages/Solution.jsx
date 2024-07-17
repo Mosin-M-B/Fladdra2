@@ -1,3 +1,4 @@
+import React from "react";
 import "./Solution.css";
 import { Section2 } from "../Components/Section2.2/Section2";
 import { ArrSectionTwo} from "../Components/Section/One.js";

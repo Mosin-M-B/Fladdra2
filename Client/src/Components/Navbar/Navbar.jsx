@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 import * as Icons from "react-icons/fa";
 import { IoIosArrowDown } from "react-icons/io";

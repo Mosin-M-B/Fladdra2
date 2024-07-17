@@ -1,4 +1,6 @@
 /* eslint-disable react/jsx-key */
+import React from "react";
+
 import { Card, card2 } from "./Card.js";
 import { Arrowbutton2 } from "../Arrow Button/Arrowbutton.jsx";
 import "./Card.css";

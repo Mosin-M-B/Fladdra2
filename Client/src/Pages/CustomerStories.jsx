@@ -1,4 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
+import React from "react";
+
 import "./CustomerStories.css";
 import cus1 from "../assets/cus1.png";
 import cus2 from "../assets/cus2.png";

@@ -1,3 +1,4 @@
+import React from "react";
 import whoweare from "../assets/whowearecircle.jpg";
 import award1 from "../assets/pic1.png";
 import award2 from "../assets/pic2.png";

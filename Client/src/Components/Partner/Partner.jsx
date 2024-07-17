@@ -1,3 +1,4 @@
+import React from "react";
 import './Partner.css'
 import google from '../../assets/google.jpg'
 import saleforce from '../../assets/saleforce.jpg'
