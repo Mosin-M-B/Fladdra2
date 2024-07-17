@@ -105,6 +105,7 @@ menu {
   margin-left: 130px;
 }
 #tabbutton{
+  width: 100%;
   color: #A9ABAE;
   font-size: 56px;
   font-weight: 700;
@@ -114,7 +115,6 @@ menu {
   text-align:left;
   margin-right:20px;
   background-color: transparent;
-  border-right:2px solid red;
 }
 /* Media Queries */
 
