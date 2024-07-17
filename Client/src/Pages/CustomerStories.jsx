@@ -3,6 +3,7 @@ import "./CustomerStories.css";
 import cus1 from "../assets/cus1.png";
 import cus2 from "../assets/cus2.png";
 import { Helmet } from "react-helmet";
+import React from "react";
 export const CustomerStories = () => {
   return (
     <>

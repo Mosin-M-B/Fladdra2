@@ -2,6 +2,7 @@ import "./OurThinking.css";
 import { ThinkFuture } from "../Components/ThinkFuture/ThinkFuture";
 import { Cards2 } from "../Components/Card/Cards";
 import { Helmet } from "react-helmet";
+import React from "react";
 const evaluations = [
   {
     title: "Business Transformation Evaluation",

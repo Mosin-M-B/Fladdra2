@@ -1,6 +1,6 @@
-import Data from '../../assets/card1.png'
-import Cloud from '../../assets/card2.png'
-import Ai from '../../assets/card3.png'
+import Data from '../../assets/Solution/datas/Data.png'
+import Cloud from '../../assets/Solution/datas/Cloud.png'
+import Ai from '../../assets/Solution/datas/Ai.png'
 export const Section3Data = [
     {
         id: 201,

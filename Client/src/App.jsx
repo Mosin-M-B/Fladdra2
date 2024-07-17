@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { LandingPage } from "./Pages/LandingPage";
 import { Footer } from "./Components/Footer/Footer";
 import { Solution } from "./Pages/Solution";
-import Data from "./Pages/Data.jsx";
+import DataPage from "./Pages/DataPage.jsx";
 import AI from "./Pages/AI.jsx";
 import Cloud from "./Pages/Cloud.jsx";
 import { OurThinking } from "./Pages/OurThinking.jsx";
@@ -21,7 +21,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="solution">
             <Route path="" element={<Solution />} />
-            <Route path="data" element={<Data />} />
+            <Route path="data" element={<DataPage />} />
             <Route path="cloud" element={<Cloud />} />
             <Route path="ai" element={<AI />} />
           </Route>

@@ -6,6 +6,7 @@ import { ArrSectionOne } from "../Components/Section/One.js";
 import { ThinkFuture } from "../Components/ThinkFuture/ThinkFuture.jsx";
 import { Helmet } from "react-helmet";
 import {SectionOne} from "../Components/Section/SectionOne.jsx";
+import React from "react";
 export const LandingPage = () => {
   return (
     <>

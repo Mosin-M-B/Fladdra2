@@ -7,6 +7,7 @@ import award5 from "../assets/pic5.png";
 import { Arrowbutton } from "../Components/Arrow Button/Arrowbutton";
 import "./WhoWeAre.css";
 import { Helmet } from "react-helmet";
+import React from "react";
 export const WhoWeAre = () => {
   return (
     <>
