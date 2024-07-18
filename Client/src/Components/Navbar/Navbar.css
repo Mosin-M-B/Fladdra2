@@ -143,6 +143,10 @@
     justify-content: center;
     height: 60px;
   }
+  .navbar>ul>li{
+    padding: 0;
+    height: 50px;
+  }
   .services-submenu {
     top: 72px;
   }
