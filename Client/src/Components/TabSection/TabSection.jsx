@@ -35,7 +35,7 @@ export const TabSection = () => {
           ))}
         </menu>
         <div className="tabright">
-          <div id="tab-content" className={fade ? "fade-in" : "fade-out"}>
+          <div id="tab-content">
             <p>Our Solution</p>
             <h3>{EXAMPLES[selectedTopic].title}</h3>
             <ul style={{ listStyle: "disc", listStyleType:'disc' }}>
