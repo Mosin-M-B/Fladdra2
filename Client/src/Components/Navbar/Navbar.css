@@ -244,6 +244,15 @@
     text-align: left;
   }
 }
+@media screen and (max-width: 431px){
+  .navbar{
+    height: 100px;
+  }
+  .menu-icon{
+    top: 10px;
+  }
+  
+}
 @media screen and (max-width: 390px) {
   .navbar{
     height: 80px;
