@@ -50,7 +50,9 @@
   height: 13vh;
   position: relative;
 }
-
+.nav-item>li>#link{
+  text-decoration: none;
+}
 .nav-item>a {
   text-decoration: none;
   font-size: 1.1rem;
