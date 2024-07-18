@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 export const Footer = () => {
   return (
     <footer>
-      <div className="footercontent">
+      <div className="footercontent" style={{textDecoration:'none'}}>
         <div className="footerleft">
           <Link to="/">
             <div className="flogo ">
@@ -22,17 +22,16 @@ export const Footer = () => {
             </div>
           </Link>
           <div className="fsocial">
-            <a href="https://www.linkedin.com/company/fladdra" target="_blank">
+            <a href="https://www.linkedin.com/company/fladdra" target="_blank" style={{textDecoration:'none'}}>
               <FaLinkedin />
             </a>
-            <FaYoutubeSquare />
-            <a href="https://www.instagram.com/fladdraglobal?igsh=MXFmbTV2OGdmZTJkZg==">
+            <a href="https://www.instagram.com/fladdraglobal?igsh=MXFmbTV2OGdmZTJkZg==" target="_blank" style={{textDecoration:'none'}}>
               <FaSquareInstagram />
             </a>
-            <a href="https://www.facebook.com/share/45DcopaPWxnpZeJz/?mibextid=qi2Omg">
+            <a href="https://www.facebook.com/share/45DcopaPWxnpZeJz/?mibextid=qi2Omg" target="_blank" style={{textDecoration:'none'}}>
               <FaFacebookSquare />
             </a>
-            <a href="https://x.com/FladdraGlobal?t=1JE8jOIRLBZAMHZ8j-fIkQ&s=09">
+            <a href="https://x.com/FladdraGlobal?t=1JE8jOIRLBZAMHZ8j-fIkQ&s=09" target="_blank" style={{textDecoration:'none'}}>
               <FaSquareXTwitter />
             </a>
           </div>
