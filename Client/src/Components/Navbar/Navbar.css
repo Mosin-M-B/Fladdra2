@@ -108,7 +108,7 @@
 }
 
 .services-submenu li {
-   
+
   cursor: pointer;
 }
 
@@ -128,7 +128,6 @@
 }
 @media screen and (max-width: 1024px) {
   .navbar{
-   
     flex-direction: column;
     height: 120px;
     margin: 0;
@@ -141,7 +140,9 @@
   }
   .services-submenu {
     top: 72px;
-    
+  }
+  .active{
+    background-color: white;
   }
   
 }
@@ -160,11 +161,11 @@
   }
 
   .nav-items.active {
-    background: red;
+    background: white;
     left: 0px;
     opacity: 1;
     width: 100%;
-    
+    margin-top: 30px;
     transition: all 0.5s ease-in-out;
     z-index: 1;
     -webkit-transition: all 0.5s ease-in-out;
