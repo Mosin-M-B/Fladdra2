@@ -127,6 +127,9 @@
   color: white;
   padding: 16px;
 }
+a{
+  text-decoration: none;
+}
 @media screen and (max-width: 1024px) {
   .navbar{
     flex-direction: column;
