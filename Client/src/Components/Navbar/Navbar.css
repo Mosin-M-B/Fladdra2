@@ -10,7 +10,6 @@
   padding-left: 20vh;
   padding-right: 20vh;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
-  
 }
 
 .navbar-logo {
@@ -25,12 +24,12 @@
 }
 .navbar-logo > h1 {
   font-weight: 600;
-  color: #BD2625;
+  color: #bd2625;
 }
 
 .menu-icon {
   display: none;
-  color: #BD2625;
+  color: #bd2625;
   font-size: 2rem;
   cursor: pointer;
 }
@@ -46,14 +45,13 @@
 
 .nav-item {
   display: flex;
- 
+
   align-items: center;
   height: 13vh;
   position: relative;
 }
 
 .nav-item a {
- 
   text-decoration: none;
   font-size: 1.1rem;
   margin-right: 2rem;
@@ -90,30 +88,25 @@
 
 .dropdown a:hover {
   background-color: #1888ff;
-  
 }
 
 .nav-item.active .dropdown {
   display: block;
-  
 }
 
 .services-submenu {
   width: 10rem;
-  border-top:0.5px solid rgb(0, 241, 161);
+  border-top: 0.5px solid rgb(0, 241, 161);
   position: absolute;
   top: 90px;
   list-style: none;
   text-align: start;
-  background-color: #282C35;
+  background-color: #282c35;
 }
 
 .services-submenu li {
-
   cursor: pointer;
 }
-
-
 
 .services-submenu.clicked {
   display: none;
@@ -128,28 +121,32 @@
   padding: 16px;
 }
 @media screen and (max-width: 1024px) {
-  .navbar{
+  .navbar {
     flex-direction: column;
-    height: 100px;
+    height: 130px;
     margin: 0;
+    gap: 0px;
+    position: sticky;
+    top: 0;
+    z-index: 10;
   }
 
-  .navbar>ul{
-    width: 120%; 
+  .navbar > ul {
+    padding-bottom: 20px;
+    width: 120%;
     margin: 0;
     justify-content: center;
+    height: 60px;
   }
   .services-submenu {
     top: 72px;
   }
-  .active{
+  .active {
     background-color: white;
   }
-  
 }
 @media screen and (max-width: 960px) {
   .nav-items {
- 
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -182,7 +179,6 @@
     flex-direction: column;
     margin: 0;
     height: auto;
-    
   }
 
   .nav-item a {
@@ -190,7 +186,7 @@
     width: 100%;
     display: table;
   }
-  #link{
+  #link {
     display: flex;
     justify-content: space-between;
   }
@@ -198,7 +194,7 @@
     display: block;
     position: absolute;
     top: 5px;
-    right:-10px;
+    right: -10px;
     transform: translate(-100%, 60%);
     cursor: pointer;
     margin-bottom: 10px;
@@ -217,8 +213,6 @@
     display: block;
   }
 
-
-
   .services-submenu {
     width: 100%;
     position: relative;
@@ -234,10 +228,8 @@
     width: 100%;
     position: relative;
     top: 0;
-    
-   
   }
-  .nav-item.active{
+  .nav-item.active {
     border: solid black;
   }
 }
