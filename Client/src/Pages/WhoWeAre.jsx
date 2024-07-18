@@ -25,7 +25,7 @@ export const WhoWeAre = () => {
       </Helmet>
       <div className="whoweare_hero">
         <div className="whoweare_content">
-          <h1 style={{ fontWeight: "700" }}>
+          <h1 className="text-10xl" style={{ fontWeight: "700" }}>
             A More Practical Strategy.
             <br />
             A More Flexible Foundation.
