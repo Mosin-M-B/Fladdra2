@@ -38,7 +38,7 @@ export const TabSection = () => {
           <div id="tab-content" className={fade ? "fade-in" : "fade-out"}>
             <p>Our Solution</p>
             <h3>{EXAMPLES[selectedTopic].title}</h3>
-            <ul>
+            <ul style={{ listStyle: "disc", listStyleType:'disc' }}>
               {EXAMPLES[selectedTopic].description.map((value, index) => (
                 <li key={index} style={{ listStyle: "disc" }}>
                   {value}

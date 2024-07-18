@@ -248,6 +248,9 @@
   .navbar{
     height: 80px;
   }
+  .navbar-logo>a>h1{
+    display: none;
+  }
   .nav-items.active{
     margin-top: 110px;
     background-color: white;
