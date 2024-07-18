@@ -192,6 +192,9 @@
   .whoweare_content1 {
     overflow: hidden;
   }
+  .whoweare_content > h1 {
+    font-size: 50px;
+  }
   .Statistics-content {
     overflow: hidden;
     padding: 0;
