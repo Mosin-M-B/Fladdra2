@@ -22,7 +22,7 @@ export const Footer = () => {
             </div>
           </Link>
           <div className="fsocial">
-            <a href="https://www.linkedin.com/company/fladdra" target="_blank" style={{textDecoration:'none'}}>
+            <a href="https://www.linkedin.com/company/fladdra" target="_blank" style={{textDecoration:'none',color:'white'}}>
               <FaLinkedin />
             </a>
             <a href="https://www.instagram.com/fladdraglobal?igsh=MXFmbTV2OGdmZTJkZg==" target="_blank" style={{textDecoration:'none',color:'white'}}>
