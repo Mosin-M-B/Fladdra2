@@ -88,6 +88,7 @@ export const Navbar = () => {
                 to={item.path}
                 className={activeMenu === item.title ? "activ" : ""}
                 id="link"
+                style={{textDecoration:'none'}}
               >
                 <p onClick={closeMobileMenu}>{item.title}</p>
                 {dropdownItems.length > 0 && <IoIosArrowDown />}
