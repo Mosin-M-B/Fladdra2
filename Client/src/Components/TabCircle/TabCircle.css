@@ -1,0 +1,105 @@
+.sectionCircleTab{
+    display: flex;
+    width: 100%;
+    height:auto;
+    background-color: #242424;
+    padding: 0 20vh;
+    justify-content: center;
+}
+.CircleTabcontent{
+    width: 1300px;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    padding: 32px 12px;
+    flex-direction: column;
+    gap: 60px   ;
+    
+}
+.tabCirclehead{
+    width: 900px;
+    height: 68px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+    text-align: center;
+}
+.Circlebuttons{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.Circlebutton{
+    border-radius: 50%;
+    width: 298px;
+    height: 298px;
+    background-color: #6B6C72;
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    
+}
+.Circlebuttonactive{
+    border-radius: 50%;
+    width: 298px;
+    height: 298px;
+    background-color: white;
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.circlebtnheading{
+    text-align: center;
+    width: 179px;
+    letter-spacing: 0.5px;
+    word-spacing: 5px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+.rectangals{
+    width: 790px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.rectangal{
+    width: 255px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+    color: #242424;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+.rectangal>h1{
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 24px;
+    color: rgb(15,15,42);
+}
+.rectangal>p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(15,15,42);
+}

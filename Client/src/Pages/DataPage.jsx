@@ -6,7 +6,8 @@ import HeroSolution from '../Components/HeroPageForSolutions/HeroSolution.jsx'
 import {SolutionHeroData} from '../Components/HeroPageForSolutions/Solutions.js'
 import CoreCards from '../Components/CoreSolutions/CoreCards.jsx'
 import{Solutions} from '../Components/CoreSolutions/data.js'
-
+import TabCircle from "../Components/TabCircle/TabCircle.jsx"
+import {TabCircles} from "../Components/TabCircle/Circletabdata.js"
 
 
 function DataPage() {
@@ -16,6 +17,7 @@ function DataPage() {
       <HeroSolution data={SolutionHeroData[0]}/>
       <Section3 data={Section3Data[0]}/>
       <CoreCards data={Solutions[0]}/>
+      <TabCircle data={TabCircles[0]}/>
     </div>
   )
 }

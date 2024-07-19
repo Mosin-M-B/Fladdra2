@@ -7,7 +7,7 @@ export default function CoreCards({ data }) {
       <div className="coreCards">
         {data.element.map((item, index) => {
           return (
-            <div className="coreCard">
+            <div className="coreCard" key={index}>
               <div className="coreCardhead">
                 <div className="coreCardimg">
                   <img src={item.img} alt={item.title} />
