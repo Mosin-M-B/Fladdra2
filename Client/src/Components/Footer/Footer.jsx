@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import logo from "../../assets/logo.png";
-import { FaYoutubeSquare } from "react-icons/fa";
+
 import { FaSquareInstagram } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
@@ -18,20 +18,20 @@ export const Footer = () => {
           <Link to="/">
             <div className="flogo ">
               <h1>Fladdra</h1>
-              <img src={logo} />
+              <img src={logo} alt=""/>
             </div>
           </Link>
           <div className="fsocial">
-            <a href="https://www.linkedin.com/company/fladdra" target="_blank" style={{textDecoration:'none',color:'white'}}>
+            <a href="https://www.linkedin.com/company/fladdra" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none',color:'white'}}>
               <FaLinkedin />
             </a>
-            <a href="https://www.instagram.com/fladdraglobal?igsh=MXFmbTV2OGdmZTJkZg==" target="_blank" style={{textDecoration:'none',color:'white'}}>
+            <a href="https://www.instagram.com/fladdraglobal?igsh=MXFmbTV2OGdmZTJkZg==" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none',color:'white'}}>
               <FaSquareInstagram />
             </a>
-            <a href="https://www.facebook.com/share/45DcopaPWxnpZeJz/?mibextid=qi2Omg" target="_blank" style={{textDecoration:'none', color:'white'}}>
+            <a href="https://www.facebook.com/share/45DcopaPWxnpZeJz/?mibextid=qi2Omg" rel="noopener noreferrer" target="_blank" style={{textDecoration:'none', color:'white'}}>
               <FaFacebookSquare />
             </a>
-            <a href="https://x.com/FladdraGlobal?t=1JE8jOIRLBZAMHZ8j-fIkQ&s=09" target="_blank" style={{textDecoration:'none' , color:'white'}}>
+            <a href="https://x.com/FladdraGlobal?t=1JE8jOIRLBZAMHZ8j-fIkQ&s=09" target="_blank" rel="noopener noreferrer" style={{textDecoration:'none' , color:'white'}}>
               <FaSquareXTwitter />
             </a>
           </div>

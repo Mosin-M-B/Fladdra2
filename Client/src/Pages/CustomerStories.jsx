@@ -27,7 +27,7 @@ export const CustomerStories = () => {
       <div className="cus_contents">
         <div className="cus_content cus1">
           <div className="cus1_img">
-            <img src={cus1} loading="lazy" />
+            <img src={cus1} loading="lazy" alt="" />
           </div>
           <div className="cus1_des">
             <h3>
@@ -44,7 +44,7 @@ export const CustomerStories = () => {
         <div className="cus_content cus2">
           
         <div className="cus1_img">
-        <img src={cus2} loading="lazy" />
+        <img src={cus2} loading="lazy" alt=""/>
       </div>
       <div className="cus1_des">
         <h3>

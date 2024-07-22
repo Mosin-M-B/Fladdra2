@@ -108,28 +108,28 @@ export const WhoWeAre = () => {
           </p>
           <div className="awardsPic">
             <div className="Award">
-              <img src={award1} />
+              <img src={award1} alt=""/>
               <br />
               <h2>2017 - 2021 | 2023</h2>
             </div>
             <div className="Award">
-              <img src={award2} />
+              <img src={award2} alt=""/>
               <br />
               <h2>2020 - 2023</h2>
             </div>
             <div className="Award">
-              <img src={award3} />
+              <img src={award3} alt=""/>
               <br />
               <h2>2021 - 2023</h2>
             </div>
             <div className="Award">
-              <img src={award4} />
+              <img src={award4} alt=""/>
               <br />
               <h2>2022 | 2023 </h2>
               <h2>Top Agency Winner</h2>
             </div>
             <div className="Award">
-              <img src={award5} />
+              <img src={award5} alt=""/>
               <br />
               <h2>2022 | 2023 </h2>
               <h2>Best Technology Winner</h2>

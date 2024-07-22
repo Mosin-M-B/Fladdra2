@@ -1,4 +1,4 @@
-import React,{ useState, useEffect } from "react";
+import React,{ useState } from "react";
 import TabButton from "./TabButton";
 import { Arrowbutton } from "../Arrow Button/Arrowbutton.jsx";
 import { EXAMPLES } from "./data.js";
@@ -6,19 +6,16 @@ import "./TabSection.css";
 
 export const TabSection = () => {
   const [selectedTopic, setSelectedTopic] = useState("Data");
-  const [fade, setFade] = useState(true);
+
 
   const handleSelect = (selectedButton) => {
-    setFade(false);
+   
     setTimeout(() => {
       setSelectedTopic(selectedButton);
-      setFade(true);
     }, 900); // Duration should match the CSS transition time
   };
 
-  useEffect(() => {
-    setFade(true);
-  }, []);
+
 
   return (
     <section className="tabsection">

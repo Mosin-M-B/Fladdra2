@@ -7,7 +7,7 @@ export default function Section3( {data} ) {
     <div className="section3">
       <div className="section3Content">
         <div className="leftside">
-          <img src={data.img} />
+          <img src={data.img} alt=""/>
           <p>{data.heding}</p>
         </div>
         <div className="rightside">

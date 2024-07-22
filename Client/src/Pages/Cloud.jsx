@@ -6,7 +6,7 @@ import { Section3Data } from '../Components/Section3/Section3.js'
 import Section3 from '../Components/Section3/Section3.jsx'
 import CoreCards from '../Components/CoreSolutions/CoreCards.jsx'
 import{Solutions} from '../Components/CoreSolutions/data.js'
-import RotatingCircle from "../Components/TabCircle/RotatingCircle.jsx";
+
 import TabCircle from "../Components/TabCircle/TabCircle.jsx"
 import {TabCircles} from "../Components/TabCircle/Circletabdata.js"
 export default function Cloud() {
