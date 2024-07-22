@@ -15,25 +15,36 @@ export default function TabCircle({ data }) {
         <div className="Circlebuttons">
           {data.circles.map((value, index) => (
             <div
-              key={index}
               className={`my-element ${
-                activeIndex === index ? "Circlebuttonactive" : "Circlebutton"
+                activeIndex === index ? "circles" : ' '
               }`}
-              onClick={() => handleClick(index)}
             >
-              <h1 className="circlebtnheading">{value.head}</h1>
+            <div
+            className={`my-element ${
+              activeIndex === index ? "dots" : ' '
+            }`}
+            ></div>
+              <div
+                key={index}
+                className={`my-element ${
+                  activeIndex === index ? "Circlebuttonactive" : "Circlebutton"
+                }`}
+                onClick={() => handleClick(index)}
+              >
+                <h1 className="circlebtnheading">{value.head}</h1>
+              </div>
             </div>
           ))}
         </div>
         <div className="rectangals">
-        {data.circles[activeIndex].rectangal.map((value, index) => {
-          return (
-            <div key={index} className="rectangal">
-              <h1>{value.title}</h1>
-              <p>{value.para}</p>
-            </div>
-          );
-        })}
+          {data.circles[activeIndex].rectangal.map((value, index) => {
+            return (
+              <div key={index} className="rectangal">
+                <h1>{value.title}</h1>
+                <p>{value.para}</p>
+              </div>
+            );
+          })}
         </div>
       </div>
     </div>
