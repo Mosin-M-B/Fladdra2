@@ -13,7 +13,9 @@
   padding: 72px 20vh;
   text-align: center;
 }
-
+.whoweare_content > h1 {
+  font-size: 70px;
+}
 .whoweare_content > .herobutton > div > .herobtntext > p {
   width: 160px;
 }
@@ -138,7 +140,7 @@
   color: white;
 }
 
-.Statistics-content h2 {
+.Statistics-content>h2 {
   height: 33.6px;
   font-size: 28px;
   width: 592px;
@@ -189,6 +191,9 @@
 @media screen and (max-width: 1025px) {
   .whoweare_content1 {
     overflow: hidden;
+  }
+  .whoweare_content > h1 {
+    font-size: 50px;
   }
   .Statistics-content {
     overflow: hidden;

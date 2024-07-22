@@ -1,3 +1,4 @@
+import React from "react";
 import Novartis from '../../assets/ovartis Logo.jpg';
 import seleforce from '../../assets/sale.jpg';
 import America from '../../assets/American-Cancer-Society.jpg';

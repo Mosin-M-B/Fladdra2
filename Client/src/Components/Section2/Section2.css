@@ -23,7 +23,6 @@
   margin-top: 30px;
 }
 .imgs > img {
-
   position: absolute;
   width: 486px;
   height: 486px;
@@ -169,13 +168,11 @@
   }
 
   .sectionContent {
-    
     width: 100%;
     align-items: center;
   }
 
   .imgs {
-    
     position: relative;
     width: 100%;
     display: flex;
@@ -348,38 +345,35 @@
     font-size: 30px;
   }
 }
-@media (max-width: 413px){
-  .section2{
+@media (max-width: 413px) {
+  .section2 {
     margin: 20px 0px;
     overflow: hidden;
   }
-  .sectionContent{
+  .sectionContent {
     padding: 0px 0px;
     margin: 20px 0px;
     height: 800px;
   }
-  .section2text{
-    
+  .section2text {
     margin-top: 100px;
     padding: 0px 10px;
     margin: 0px;
- 
   }
-  .imgs{
+  .imgs {
     width: 350px;
     height: 350px;
     margin-bottom: 250px;
   }
-  .imgs>img{
+  .imgs > img {
     width: 350px;
     height: 350px;
   }
-  #circle{
-   
+  #circle {
     width: 350px;
     height: 350px;
   }
-} 
+}
 @media (max-width: 431px) {
   .section2 {
     padding: 10px;
@@ -392,14 +386,13 @@
 
     height: 100%;
   }
-  .imgs{
-    width:400px;
+  .imgs {
+    width: 400px;
     height: 400px;
-   
   }
-  .circle{
+  .circle {
     left: -30px;
-    width:400px;
+    width: 400px;
   }
 }
 @media (max-width: 391px) {
@@ -429,40 +422,37 @@
 }
 
 @media (max-width: 321px) {
-  .section2 {
-   
-    align-items: center;
-    height: auto;
-  }
-
   .sectionContent {
+    margin-top: 100px;
     width: 100%;
-   padding: 0;
-   margin: 0;
+    padding: 0;
+    margin: 0;
     align-items: center;
   }
 
   .imgs {
+    margin-top: 100px;
     padding: 0;
     margin: 0;
     height: 200px;
     display: flex;
     justify-content: center;
-   
     align-items: center;
-    
   }
 
   .imgs > img {
-    margin-right:100px ;
-   width: 200px;
-   height: 200px;
-  }
-  
-  #circle{
-    margin: 0;
+    margin-top: 200px;
+    margin-right: 100px;
     width: 200px;
-   height: 200px;
+    height: 200px;
+  }
+
+  #circle {
+    margin: 0;
+    margin-top: 200px;
+    width: 200px;
+    height: 200px;
+   
   }
 
   .section2text {

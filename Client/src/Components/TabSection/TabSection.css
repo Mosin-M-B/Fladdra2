@@ -19,6 +19,7 @@
 }
 
 menu {
+  gap: 40px;
   display: flex;
   flex-direction: column;
   color: rgba(255, 255, 255, 0.6);
@@ -28,14 +29,14 @@ menu {
   line-height: 100px;
   font-weight: 700;
   text-align: left;
-  padding-right: 60px;
   border-right: 0.5px solid white;
 }
 
-.active {
+.activee {
   width: 100%;
   color: white;
   border-right: 7px solid red;
+  font-size: 56px;
 }
 
 .tabright {
@@ -54,13 +55,13 @@ menu {
   
 }
 
-#tab-content p {
+#tab-content >p {
   font-size: 30px;
   font-weight: 500;
   line-height: 22px;
 }
 
-#tab-content h3 {
+#tab-content >h3 {
   margin-top: 25px;
   font-size: 48px;
   line-height: 50px;
@@ -69,12 +70,11 @@ menu {
 
 #tab-content > ul {
   margin-top: 20px;
-
-  list-style: disc;
+  list-style-type: disc;
 }
 
 #tab-content > ul > li {
-  list-style: disc;
+  list-style-type: disc;
   display: flex;
   justify-content: left;
   font-size: 30px;
@@ -92,15 +92,10 @@ menu {
   right: -120px;
 }
 
-.tabsimg img {
+.tabsimg >img {
   width: 450px;
   height: 400px;
 }
-
-
-
-
-
 #tab-content > .herobutton > div > .herobtntext > p {
   letter-spacing: 6px;
   width: 180px;
@@ -108,7 +103,19 @@ menu {
   font-weight: 700;
   margin-left: 130px;
 }
-
+.tabbutton{
+  
+  width: 100%;
+  color: #A9ABAE;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 100px;
+  width:100%;
+  height:150px;
+  text-align:left;
+  margin-right:20px;
+  background-color: transparent;
+}
 /* Media Queries */
 
 /* For tablets and small desktops */
@@ -123,7 +130,9 @@ menu {
     width: 100%;
     padding: 20px;
   }
-
+  .activee{
+    border: none;
+  }
   menu {
     flex-direction: row;
     justify-content: center;
@@ -135,7 +144,7 @@ menu {
     order: -1; /* Move menu to the top */
     gap: 100px;
   }
-  menu > li > button {
+  menu > li {
     font-size: 44px;
   }
   .active {
@@ -196,6 +205,9 @@ menu {
     margin: 0;
     padding: 0%;
   }
+  .activee{
+    border: none;
+  }
   .tabsContent {
     flex-direction: column;
     align-items: center;
@@ -215,7 +227,7 @@ menu {
     gap: 50px;
     margin-top: 0;
   }
-  menu > li > button {
+  menu > li  {
     font-size: 30px;
   }
   .tabsimg {
@@ -275,15 +287,15 @@ menu {
     margin-top: 360px;
   }
 
-  #tab-content p {
+  #tab-content >p {
     font-size: 24px;
   }
 
-  #tab-content h3 {
+  #tab-content >h3 {
     font-size: 36px;
   }
 
-  #tab-content ul li {
+  #tab-content >ul> li {
     font-size: 24px;
   }
 
@@ -300,19 +312,31 @@ menu {
     align-items: center;
     width: 100%;
     padding: 20px;
-  }
 
+  }
+ 
+  .activee {
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 30px;
+  }
   menu {
+
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    width: 90%;
     font-size: 16px;
     padding-right: 0;
     border-right: none;
     border-bottom: 0.5px solid white;
     order: -1; /* Move menu to the top */
+    margin: 0;
+    padding: 0;
   }
-
+  .tabbutton{
+    font-size: 30px;
+  }
   .tabsimg {
     width: 90%;
     height: auto;
@@ -346,19 +370,19 @@ menu {
     margin: 0;
     width: 180px;
   }
-  #tab-content p {
+  #tab-content >p {
     font-size: 20px;
   }
 
-  #tab-content h3 {
+  #tab-content >h3 {
     font-size: 28px;
   }
 
-  #tab-content ul li {
+  #tab-content >ul >li {
     font-size: 20px;
   }
 
-  .tabsimg img {
+  .tabsimg >img {
     width: 100%;
     height: auto;
   }
@@ -383,7 +407,9 @@ menu {
     width: 100%;
     padding: 20px;
   }
-
+  .activee{
+    border: none;
+  }
   menu {
     flex-direction: row;
     justify-content: center;
@@ -394,6 +420,10 @@ menu {
     border-right: none;
     border-bottom: 0.5px solid white;
     order: -1; /* Move menu to the top */
+  }
+  .tabsContent > menu >li{
+    background-color: transparent;
+    border: none;
   }
 
   .tabsimg {
@@ -419,15 +449,15 @@ menu {
     text-align: center;
   }
 
-  #tab-content p {
+  #tab-content >p {
     font-size: 20px;
   }
 
-  #tab-content h3 {
+  #tab-content >h3 {
     font-size: 28px;
   }
 
-  #tab-content ul li {
+  #tab-content> ul> li {
     font-size: 20px;
   }
   .tabsection

@@ -1,15 +1,23 @@
+import React from "react";
 import "./Solution.css";
-import {Section2} from '../Components/Section2.2/Section2'
-import { SectionOne } from "../Components/Section/SectionOne";
+import { Section2 } from "../Components/Section2.2/Section2";
+import { ArrSectionTwo} from "../Components/Section/One.js";
 import { Arrowbutton } from "../Components/Arrow Button/Arrowbutton";
-import { ArrSectionTwo } from "../Components/Section/sectionOne.js";
 import { OurSolution } from "../Components/OurSolution/OurSolution.jsx";
-// eslint-disable-next-line no-unused-vars
-import {Cards} from '../Components/Card/Cards.jsx'
 import { Partner } from "../Components/Partner/Partner.jsx";
+import { Helmet } from "react-helmet";
+import {SectionOne}from "../Components/Section/SectionOne"
+
 export const Solution = () => {
   return (
     <>
+      <Helmet>
+        <title>Solution - Fladdra</title>
+        <meta
+          name="description"
+          content="Connect with our team about your upcoming business projects and opportunities."
+        />
+      </Helmet>
       <div className="SolutionHero">
         <div className="SolutionContent">
           <h1>
@@ -24,7 +32,7 @@ export const Solution = () => {
             business opportunities, make smart decisions, and drive business
             impact.
           </p>
-          <Arrowbutton name={"GO Fladdra Today"}/>
+          <Arrowbutton name={"GO Fladdra Today"} />
         </div>
       </div>
 
@@ -34,8 +42,8 @@ export const Solution = () => {
         para={ArrSectionTwo.para}
       />
       <OurSolution />
-      <Section2/>
-      <Partner/>
+      <Section2 />
+      <Partner />
     </>
   );
 };

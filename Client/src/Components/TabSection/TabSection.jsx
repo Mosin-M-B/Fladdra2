@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import React,{ useState, useEffect } from "react";
 import TabButton from "./TabButton";
 import { Arrowbutton } from "../Arrow Button/Arrowbutton.jsx";
 import { EXAMPLES } from "./data.js";
@@ -35,10 +35,10 @@ export const TabSection = () => {
           ))}
         </menu>
         <div className="tabright">
-          <div id="tab-content" className={fade ? "fade-in" : "fade-out"}>
+          <div id="tab-content">
             <p>Our Solution</p>
             <h3>{EXAMPLES[selectedTopic].title}</h3>
-            <ul>
+            <ul style={{ listStyle: "disc", listStyleType:'disc' }}>
               {EXAMPLES[selectedTopic].description.map((value, index) => (
                 <li key={index} style={{ listStyle: "disc" }}>
                   {value}

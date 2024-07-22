@@ -1,16 +1,17 @@
 .services-submenu {
   min-width: 10rem;
   width: auto;
-
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
   top: 67px;
   list-style: none;
   text-align: start;
-  display: none; /* Initially hidden */
+  display: none;
 }
 
 #drop {
-  background: rgb(190, 50, 50);
   padding: 10px;
+  border-radius: 5px;
 }
 
 #drop > h3 {
@@ -23,7 +24,7 @@
 }
 
 .services-submenu li {
-  background: rgb(190, 50, 50);
+  
   cursor: pointer;
 }
 

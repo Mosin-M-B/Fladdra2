@@ -1,6 +1,8 @@
+import React from "react";
 import "./OurThinking.css";
 import { ThinkFuture } from "../Components/ThinkFuture/ThinkFuture";
 import { Cards2 } from "../Components/Card/Cards";
+import { Helmet } from "react-helmet";
 
 const evaluations = [
   {
@@ -39,6 +41,13 @@ const newsletters = [
 export const OurThinking = () => {
   return (
     <>
+      <Helmet>
+        <title>Our Thinking-Fladdra</title>
+        <meta
+          name="description"
+          content="Connect with our team about your upcoming business projects and opportunities."
+        />
+      </Helmet>
       <div className="ourthinking_hero">
         <div className="ourthinking_content">
           <h1>

@@ -1,6 +1,9 @@
-import "./SectionOne.css";
+import React from "react";
 
-export const SectionOne = ({h2,h3,para}) => {
+import "./SectionOneStyle.css";
+
+
+ export const SectionOne = ({h2,h3,para}) => {
   return (
     <>
       <section className="sectionOne">
@@ -22,3 +25,4 @@ export const SectionOne = ({h2,h3,para}) => {
     </>
   );
 };
+export default SectionOne;
