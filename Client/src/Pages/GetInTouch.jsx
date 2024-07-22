@@ -4,6 +4,13 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Helmet } from 'react-helmet';
 import "./GetInTouch.css";
+<<<<<<< HEAD
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+=======
+>>>>>>> 577e17b4f34811cf66322d2d1701d87d1346007c
 
 export const GetInTouch = () => {
   const form = useRef();
@@ -39,10 +46,13 @@ export const GetInTouch = () => {
 
   return (
     <>
+<<<<<<< HEAD
+=======
       <Helmet>
         <title>Get In Touch - Fladdra</title>
         <meta name="description" content="Connect with our team about your upcoming business projects and opportunities." />
       </Helmet>
+>>>>>>> 577e17b4f34811cf66322d2d1701d87d1346007c
       <ToastContainer />
       <div className="get_hero">
         <div className="get_hero_content">
